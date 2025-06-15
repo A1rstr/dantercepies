@@ -6,6 +6,7 @@
     "start": "expo start --tunnel",
     "start-web": "expo start --web --tunnel",
     "start-web-dev": "DEBUG=expo* expo start --web --tunnel"
+    "test": "echo \"No tests defined\" && exit 0"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
