@@ -15,7 +15,11 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "app.rork.my-location-tracker"
+      "bundleIdentifier": "app.rork.my-location-tracker",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Diese App benötigt deinen Standort, um deine Bewegungen anzuzeigen.",
+        "NSLocationAlwaysUsageDescription": "Diese App verwendet deinen Standort auch im Hintergrund, um Bewegungen aufzuzeichnen."
+      }
     },
     "android": {
       "adaptiveIcon": {
